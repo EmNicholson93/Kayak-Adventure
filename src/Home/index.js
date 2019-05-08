@@ -1,7 +1,7 @@
 import makeKayaker from './make-kayaker.js';
 import api from '../api.js';
 
-const kayakerForm = document.getElementById('kayak');
+const kayakerForm = document.getElementById('kayaker');
 kayakerForm.addEventListener ('submit', event => {
     event.preventDefault();
 
