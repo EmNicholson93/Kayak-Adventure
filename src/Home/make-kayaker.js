@@ -3,9 +3,10 @@ function makeKayaker(formData) {
         name: formData.get('name'),
         kayak: formData.get('kayak'),
         energy: '100',
-        Integrity: '100'
+        integrity: '100'
     };
     return kayaker;
+    console.log(kayaker, 'test');
 }
 
 export default makeKayaker;

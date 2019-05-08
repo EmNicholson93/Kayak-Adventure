@@ -9,7 +9,7 @@ test('signUp saves and getKayaker returns', assert => {
         name: 'eli',
         kayak: 'creeker',
         energy: '100',
-        kayakIntegrity: '100'
+        integrity: '100'
     };
 
     api.signUp(expected);

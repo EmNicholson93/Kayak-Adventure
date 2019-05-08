@@ -13,7 +13,7 @@ test('test to create kayaker', assert => {
         name: 'eli',
         kayak: 'creeker',
         energy: '100',
-        kayakIntegrity: '100'
+        integrity: '100'
 
     };
 

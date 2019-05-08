@@ -12,4 +12,4 @@ name.textContent = kayaker.name;
 energy.textContent = 'Energy: ' + kayaker.energy;
 integrity.textContent = 'Kayak Integrity: ' + kayaker.integrity;
 
-console.log(kayaker.integrity);
+console.log(integrity.textContent);
