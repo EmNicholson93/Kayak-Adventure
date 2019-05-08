@@ -1,2 +1,2 @@
-import makeKayaker from '../src/Home/makeKayaker.js';
+import './api.test.js';
 import './create-kayaker.test.js';
