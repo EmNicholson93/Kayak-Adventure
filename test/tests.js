@@ -1,3 +1,4 @@
+import makeKayaker from '../src/Home/makeKayaker.js';
 const test = QUnit.test;
 
 test('test to create kayaker', assert => {
@@ -19,13 +20,3 @@ test('test to create kayaker', assert => {
     //assert
     assert.deepEqual(kayaker, expected);
 });
-
-function makeKayaker(formData) {
-    const kayaker = {
-        name: formData.get('name'),
-        kayak: formData.get('kayak'),
-        energy: '100',
-        kayakIntegrity: '100'
-    };
-    return kayaker;
-}
