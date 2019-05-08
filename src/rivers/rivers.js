@@ -11,5 +11,3 @@ kayak.src = '/assets/' + kayaker.kayak + '.png';
 name.textContent = kayaker.name;
 energy.textContent = 'Energy: ' + kayaker.energy;
 integrity.textContent = 'Kayak Integrity: ' + kayaker.integrity;
-
-console.log(integrity.textContent);
