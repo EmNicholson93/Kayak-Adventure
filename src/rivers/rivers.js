@@ -1,4 +1,4 @@
-import api from '../api.js';
+import api from '../services/api.js';
 
 const kayak = document.getElementById('kayak');
 const name = document.getElementById('name');
