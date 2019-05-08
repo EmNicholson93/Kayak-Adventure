@@ -6,7 +6,6 @@ function makeKayaker(formData) {
         integrity: '100'
     };
     return kayaker;
-    console.log(kayaker, 'test');
 }
 
 export default makeKayaker;
