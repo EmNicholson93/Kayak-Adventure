@@ -1,5 +1,6 @@
 import createSectionLink from '../src/map/create-section-link.js';
 const test = QUnit.test;
+QUnit.module('createSectionLink test');
 
 test('turn a section object into a DOM element', assert => {
     //arrange
