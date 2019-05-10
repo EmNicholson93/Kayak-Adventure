@@ -10,4 +10,4 @@ const user = api.getKayaker();
 name.textContent = user.name;
 kayak.src = '../assets/' + user.kayak + '.png';
 energy.textContent = 'Energy: ' + user.energy;
-integrity.textContent = 'Kayak Integrity: ' + user.integrity;
+integrity.textContent = 'Integrity: ' + user.integrity;

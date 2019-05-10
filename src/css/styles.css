@@ -5,8 +5,25 @@ img {
 body {
     text-align: center;
     padding: 25px;
+    background-color: lightblue;
 }
 
 fieldset {
     padding: 20px;
 }
+
+.profile {
+    border: 2px solid black;
+
+}
+
+#left {
+    float: left;
+    width: 70px;
+}
+
+#right {
+    float: right;
+    width: 105px;
+}
+
