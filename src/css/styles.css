@@ -17,12 +17,12 @@ fieldset {
 
 }
 
-#left {
+.left {
     float: left;
     width: 70px;
 }
 
-#right {
+.right {
     float: right;
     width: 105px;
 }
