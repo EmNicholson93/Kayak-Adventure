@@ -1,4 +1,4 @@
-import makeKayaker from '../src/house/make-kayaker.js';
+import makeKayaker from '../src/home/make-kayaker.js';
 
 const test = QUnit.test;
 QUnit.module('formData test');
@@ -12,8 +12,8 @@ test('test to create kayaker', assert => {
     const expected = {
         name: 'eli',
         kayak: 'creeker',
-        energy: '100',
-        integrity: '100'
+        energy: 100,
+        integrity: 100
 
     };
 

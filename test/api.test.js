@@ -1,7 +1,8 @@
 import api from '../src/services/api.js';
-const test = QUnit.test;
 
+const test = QUnit.test;
 QUnit.module('apiTest');
+
 api.storage = sessionStorage;
 
 test('signUp saves and getKayaker returns', assert => {
@@ -9,8 +10,8 @@ test('signUp saves and getKayaker returns', assert => {
     const expected = {
         name: 'eli',
         kayak: 'creeker',
-        energy: '100',
-        integrity: '100'
+        energy: 100,
+        integrity: 100
     };
     //act
     api.signUp(expected);
