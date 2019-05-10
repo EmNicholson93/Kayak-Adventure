@@ -13,29 +13,32 @@
     </header>
     <main>
         <h2>Are you ready to paddle?</h2>
-        <form id="kayak">
+        <form id="kayak-sign-up">
             <p>
                 <label for="name">What's your paddler name:</label>
                 <input id="name" name="name" required>
             </p>
             <fieldset>
                 <legend>Choose your kayak:</legend>
-                <p id="kayaker">
+                <p id="kayak">
                     <label>
-                        <input type="radio" name="kayak" value="creeker">
+                        <input type="radio" name="kayak" requried value="creeker">
+                        Creeker
                         <img src="../assets/creeker.png" alt="creek kayak">
                     </label>
                     <label>
                         <input type="radio" name="kayak" value="slicey">
+                        Slicey
                         <img src="../assets/slicey.png" alt="slicy kayak">
                     </label>
                     <label>
                         <input type="radio" name="kayak" value="playboat">
+                        Playboat
                         <img src="../assets/playboat.png" alt="playboat kayak">
                     </label>
                 </p>
             </fieldset>
-            <button>submit</button>
+            <button>Go Kayaking!</button>
         </form>
     </main>
     <script type="module" src="./src/home/index.js"></script>

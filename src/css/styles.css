@@ -4,4 +4,9 @@ img {
 
 body {
     text-align: center;
+    padding: 25px;
+}
+
+fieldset {
+    padding: 20px;
 }
