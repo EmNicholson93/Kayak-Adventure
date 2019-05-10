@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Let's go kayaking</title>
 </head>
 <body>
-
+    <header>
+        <h1>Let's go kayaking!</h1>
+    </header>
+    <main>
+        <h2>Are you ready to paddle?</h2>
+        <form id="kayak-sign-up">
+            <p>
+                <label for="name">What's your paddler name:</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Choose your kayak:</legend>
+                <p id="kayak-type">
+                    <label>
+                        <input type="radio" name="kayak" requried value="creeker">
+                        <img src="./assets/creeker.png" alt="creek kayak">
+                    </label>
+                    <label>
+                        <input type="radio" name="kayak" value="slicey">
+                        <img src="./assets/slicey.png" alt="slicy kayak">
+                    </label>
+                    <label>
+                        <input type="radio" name="kayak" value="playboat">
+                        <img src="./assets/playboat.png" alt="playboat kayak">
+                    </label>
+                </p>
+            </fieldset>
+            <button>Go Kayaking!</button>
+        </form>
+    </main>
+    <script type="module" src="./src/home/index.js"></script>
 </body>
-</html> 
+</html>
