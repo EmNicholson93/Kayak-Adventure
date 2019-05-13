@@ -2,7 +2,7 @@ import '../src/services/quest-data.js';
 import createSectionLink from '../src/section/create-section-link.js';
 
 const test = QUnit.test;
-QUnit.module('itsatrap');
+QUnit.module('create Section');
 
 
 test('take a section object and return a DOM', assert => {
