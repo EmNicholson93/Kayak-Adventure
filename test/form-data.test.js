@@ -1,4 +1,5 @@
 import makeKayaker from '../src/home/make-kayaker.js';
+import '../src/services/quest-data.js';
 
 const test = QUnit.test;
 QUnit.module('formData test');
